@@ -9,6 +9,7 @@ from langchain.document_loaders.azlyrics import AZLyricsLoader
 from langchain.document_loaders.azure_blob_storage_container import (
     AzureBlobStorageContainerLoader,
 )
+from langchain.document_loaders.azure_cosmosdb import AzureCosmosDBLoader
 from langchain.document_loaders.azure_blob_storage_file import (
     AzureBlobStorageFileLoader,
 )
@@ -166,6 +167,7 @@ __all__ = [
     "ArxivLoader",
     "AzureBlobStorageContainerLoader",
     "AzureBlobStorageFileLoader",
+    "AzureCosmosDBLoader",
     "BSHTMLLoader",
     "BibtexLoader",
     "BigQueryLoader",
